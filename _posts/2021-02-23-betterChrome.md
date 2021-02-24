@@ -39,6 +39,8 @@ Scroll Button
 
 - Notification has a tolerance of up to 10 seconds
 - Keep the options page open to receive reminder notification
+- Pause all video/audio playing before installtion
+- Refresh all pages after installtion (reload shortcut in popup)
 
 ## Acknowledgements
 
