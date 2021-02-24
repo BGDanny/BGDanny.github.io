@@ -12,6 +12,19 @@ layout: default
         margin-left: 2%;
         margin-right: 2%;
     }
+
+    .card {
+        background-color: #f6f5f5;
+        opacity: 0.9;
+    }
+
+    a.btn:visited {
+        color: black;
+    }
+
+    .btn {
+        color: black;
+    }
 </style>
 <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="10000"
     style="text-align: center;height:30rem;">
@@ -56,8 +69,67 @@ layout: default
         <span class="visually-hidden">Next</span>
     </a>
 </div>
-<hr style="border-top: 1px dashed grey;">
-<div class="home" style="margin-top: 3rem;">
+
+<hr style="border-top: 1px dashed grey;margin-bottom: 2rem;">
+
+<h2 class="post-list-heading">Project</h2>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="card text-center border-secondary">
+            <img src="assets/image/javascript.png" class="card-img-top" alt="Extension"
+                style="width:50%;height:50%;margin-top: 1rem;">
+            <div class="card-body">
+                <h5 class="card-title">Better Chrome</h5>
+                <p class="card-text">A Chrome extension to improve user experience and interaction
+                </p>
+                <a href="/extension" class="btn btn-outline-primary">View Project</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card text-center border-secondary">
+            <img src="assets/image/java.png" class="card-img-top" alt="Java"
+                style="width:50%;height:50%;margin-top: 1rem;">
+            <div class="card-body">
+                <h5 class="card-title">Movie Theatre</h5>
+                <p class="card-text">A desktop application for users to book movie tickets
+                </p>
+                <a href="/movie_theatre" class="btn btn-outline-primary">View Project</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row" style="margin-top: 2rem;">
+    <div class="col-sm-6">
+        <div class="card text-center border-secondary">
+            <img src="assets/image/c.png" class="card-img-top" alt="Extension"
+                style="width:50%;height:50%;margin-top: 1rem;">
+            <div class="card-body">
+                <h5 class="card-title">Sum of Factors</h5>
+                <p class="card-text">Calculation of the sum of smallest factors with multithreading
+                </p>
+                <a href="/thread" class="btn btn-outline-primary">View Project</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card text-center border-secondary">
+            <img src="assets/image/java.png" class="card-img-top" alt="Java"
+                style="width:50%;height:50%;margin-top: 1rem;">
+            <div class="card-body">
+                <h5 class="card-title">Course Registration</h5>
+                <p class="card-text">A project simulating the system for course registration
+                </p>
+                <a href="/registration" class="btn btn-outline-primary">View Project</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr style="border-top: 1px dashed grey;margin-bottom: 2rem;margin-top: 1rem;">
+
+<div class="home">
     {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
     {%- endif -%}
