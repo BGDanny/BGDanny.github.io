@@ -3,31 +3,31 @@ title: Better Chrome
 permalink: "/extension"
 ---
 
-
 A Chrome extension to improve user experience and interactions with Google Chrome
 
 The source code is available <a href="https://github.com/BGDanny/better-chrome" target="_blank">here</a>.
 
 ## Features
 
-- Open link in new tab 
-    - ⚡ shows up when mouse middle button is pressed to open a link in a new tab
-    - Right click on a link and select the context menu with the extension icon works the same
-    - Click on the icon instead of pressing middle button every time
+- Open link in new tab
+  - Drag a hyperlink and release it to open
 - Scroll to top button
-    - ⏫ appears when scrolling down a relatively lengthy webpage
+  - ⏫ appears when scrolling down a relatively lengthy webpage
 - Remove Google ads
 - Auto pause a video or audio when another starts to play
-    - Mute the previous tab playing audio when no audio or video element is found
-    - Unmute upon revisiting the muted tab
+  - Mute the previous tab playing audio when no audio or video element is found
+  - Unmute upon revisiting the muted tab
 - Add reminder and get notified
-    - Set reminder in Options by right clicking the extension icon
-    - Support picking date or time countdown
+  - Set reminder in "Options" by right clicking the extension icon
+  - Support picking date or time countdown
+  - Update badgetext when option page is closed
+- Search google for hyperlink text
+  - Right click on a link
 
 ## Demonstration
 
-Middle Click
-![middle](assets/image/middle_click.gif)
+Drag and open link
+![drag](assets/image/drag.gif)
 
 Context Menu
 ![context](assets/image/context_menu.gif)
@@ -45,4 +45,3 @@ Scroll Button
 ## Acknowledgements
 
 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
