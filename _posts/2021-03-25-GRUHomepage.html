@@ -38,15 +38,27 @@ permalink: "/GRU"
         text-align: center;
         font-size: 50px;
       }
+
       body {
         font-family: "Kiwi Maru", serif;
       }
+
       ol {
         max-width: 500px;
         border-style: solid;
         border-radius: 1%;
         margin-left: 200px;
         margin-top: 50px;
+      }
+
+      table {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
       }
     </style>
   </head>
@@ -72,7 +84,7 @@ permalink: "/GRU"
       class="btn btn-primary btn-lg"
       style="position: absolute; right: 575px; top: 150px"
     >
-      Login
+      Login Options
     </button>
 
     <button
@@ -82,5 +94,197 @@ permalink: "/GRU"
     >
       Continue without login
     </button>
+    <hr />
+    <div style="text-align: center">
+      <h1>Login</h1>
+      <label for="username">Username</label>
+      <br />
+      <input type="text" id="username" />
+      <br />
+      <label for="password">Password</label>
+      <br />
+      <input type="password" id="password" />
+      <br />
+      <button
+        type="button"
+        class="btn btn-primary btn-sm"
+        style="margin-top: 10px"
+      >
+        Sign In
+      </button>
+      <button
+        type="button"
+        class="btn btn-secondary btn-sm"
+        style="margin-top: 10px; margin-left: 5px"
+      >
+        Sign Up
+      </button>
+    </div>
+    <hr />
+    <div style="text-align: center">
+      <h1>Account Details</h1>
+      <label for="username1">Username</label>
+      <br />
+      <input type="text" id="username1" />
+      <br />
+      <label for="password1">Password</label>
+      <br />
+      <input type="password" id="password1" />
+      <br />
+      <label for="status" style="margin-top: 10px">Enter working status:</label>
+      <select name="status" id="status">
+        <option value="online">Online</option>
+        <option value="idle">Idle</option>
+        <option value="DND">Do Not Disturb</option>
+      </select>
+      <br />
+      <button type="button" class="btn btn-warning" style="margin-top: 10px">
+        Sign Up
+      </button>
+    </div>
+    <hr />
+    <div style="text-align: center">
+      <h1>Choose one of the following options</h1>
+      <button
+        type="button"
+        class="btn btn-secondary btn-sm"
+        style="margin-top: 10px"
+      >
+        Browse Universities
+      </button>
+      <button
+        type="button"
+        class="btn btn-secondary btn-sm"
+        style="margin-top: 10px"
+      >
+        Browse Rankings
+      </button>
+      <button
+        type="button"
+        class="btn btn-secondary btn-sm"
+        style="margin-top: 10px"
+      >
+        Browse Professors
+      </button>
+      <button
+        type="button"
+        class="btn btn-secondary btn-sm"
+        style="margin-top: 10px"
+      >
+        View Account(For Login Users Only)
+      </button>
+    </div>
+    <hr />
+    <div style="text-align: center">
+      <h1>Universities</h1>
+      <div style="text-align: right">
+        <input type="text" placeholder="Search for university" />
+        <button type="button" class="btn btn-secondary btn-sm">Search</button>
+      </div>
+      <br />
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Location</th>
+          <th>Ranking</th>
+        </tr>
+        <tr>
+          <td>University of Calgary</td>
+          <td>Calgary, Alberta, Canada</td>
+          <td>200</td>
+        </tr>
+      </table>
+    </div>
+    <hr />
+    <div style="text-align: center">
+      <h1>University Profile</h1>
+      <img
+        src="/assets/image/uofc.png"
+        alt="uofc"
+        style="display: block; margin-left: auto; margin-right: auto"
+      />
+      The University of Calgary is a public research university located in
+      Calgary, Alberta, Canada. The University of Calgary started in 1944 as the
+      Calgary branch of the University of Alberta, founded in 1908, prior to
+      being instituted into a separate, autonomous university in 1966. For more
+      information, visit <a href="https://www.ucalgary.ca/">ucalgary.ca</a>
+      <br />
+      <button type="button" class="btn btn-success">
+        Save As Preference(For Login Users Only)
+      </button>
+    </div>
+    <hr />
+    <div style="text-align: center">
+      <h1>Professors</h1>
+      <div style="text-align: right">
+        <input type="text" placeholder="Search for professor" />
+        <button type="button" class="btn btn-secondary btn-sm">Search</button>
+      </div>
+      <br />
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Faculty</th>
+          <th>Fields of Study</th>
+        </tr>
+        <tr>
+          <td><a href="">Reda Alhajj</a></td>
+          <td>Department of Computer Science, University of Calgary</td>
+          <td>Bioinformatics; Data Science</td>
+        </tr>
+      </table>
+    </div>
+    <hr />
+    <div style="text-align: center">
+      <h1>Professor Profile</h1>
+      <div>
+        Reda Alhajj received his B.Sc. degree in Computer Engineering in 1988
+        from Middle East Technical University, Ankara,Turkey. After he completed
+        his BSc with distinction from METU, he was offered a full scholarship to
+        join the graduate program in Computer Engineering and Information
+        Sciences at Bilkent University in Ankara, where he received his M.Sc.
+        and Ph.D. degrees in 1990 and 1993, respectively. Currently, he is
+        Professor in the Department of Computer Science at the
+        <a href="">University of Calgary, Alberta, Canada</a>. He published over
+        500 papers in refereed international journals and conferences. He served
+        on the program committee of several international conferences. Read more
+        on the <a href="https://alhajj.cpsc.ucalgary.ca/index.php">homepage</a>.
+      </div>
+    </div>
+    <hr />
+    <div style="text-align: center">
+      <h1>Manage Account</h1>
+      <button type="button" class="btn btn-info" style="margin-top: 10px">
+        Username Details
+      </button>
+      <br />
+      <button type="button" class="btn btn-info" style="margin-top: 10px">
+        Password Details
+      </button>
+      <br />
+      <button type="button" class="btn btn-info" style="margin-top: 10px">
+        Working Status
+      </button>
+      <br />
+      <button type="button" class="btn btn-info" style="margin-top: 10px">
+        News From Preference
+      </button>
+      <br />
+      <button type="button" class="btn btn-info" style="margin-top: 10px">
+        Manage Preference
+      </button>
+      <br />
+      <button type="button" class="btn btn-danger" style="margin-top: 10px">
+        Delete Account
+      </button>
+      <br />
+      <button
+        type="button"
+        class="btn btn-secondary btn-sm"
+        style="margin-top: 10px"
+      >
+        Back
+      </button>
+    </div>
   </body>
 </html>
