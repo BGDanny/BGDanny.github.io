@@ -1,0 +1,35 @@
+body {
+    font-family: system-ui;
+    background:white;
+    color: black;
+    text-align: center;
+  }
+  input {
+    padding:10px 20px;
+  }
+  a{
+    color:#06aee4;
+  }
+  .note {
+    color:darkgray;
+  }
+  #button {
+    background:#173b54;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:10px;
+    animation:pulse 3s infinite ease-out;
+  }
+  @keyframes pulse {
+    from {
+      box-shadow:0px 0px 6px 0px #bdc1c3fa;
+    }
+    to {
+      box-shadow:0px 0px 6px 5px #bdc1c3fa;
+    }
+  }
+  img{
+      width:500px;
+  }
+  
